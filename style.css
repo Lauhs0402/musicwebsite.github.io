@@ -1,5 +1,5 @@
 /* fonts poppins/google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
 
 * {
@@ -31,6 +31,7 @@ header .menu_side, .song_side{
     /*border: 1px solid #fff;*/
     background-color: #111727;
     box-shadow: 5px 0px 2px #090f1f;
+    color: #fff;
 }
 
 header .song_side{
@@ -44,4 +45,12 @@ header .master_play{
     /*border: 1px solid #fff;*/
     background-color: #111727;
     box-shadow: 0px 3px 8px #090f1f;
+}
+
+/* h1 */
+
+header .menu_side h1 {
+    font-size: 20px;
+    margin: 15px 0px 0px 20px;
+    font-weight: 500;
 }
