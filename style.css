@@ -21,4 +21,16 @@ header{
     width: 85%;
     height: 95%;
     border: 1px solid #fff;
+    display: flex;
+}
+
+header .menu_side, .song_side{
+    width: 25%;
+    height: 90%;
+    border: 1px solid #fff;
+    background-color: #111727;
+}
+
+header .song_side{
+    width: 75%;
 }
