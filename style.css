@@ -127,4 +127,17 @@ header .menu_side .menu_song li{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s linear;
 }
+
+header .menu_side .menu_song li:hover{
+    background-color: rgb(105, 105, 105, .1);
+}
+
+header .menu_side .menu_song li span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c5265;
+}
+
