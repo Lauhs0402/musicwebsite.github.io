@@ -141,3 +141,14 @@ header .menu_side .menu_song li span{
     color: #4c5265;
 }
 
+header .menu_side .menu_song li img{
+    width: 42px;
+    height: 42px;
+    margin-left: 25px;
+}
+
+header .menu_side .menu_song li h5{
+   
+}
+
+
